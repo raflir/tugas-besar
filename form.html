@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Form</title>
+<style>
+<!--
+body
+	{font-variant:small-caps;
+	 font-family:verdana;
+	 background-image:url(bg6.jpg);
+	 background-size:102%;
+	 background-color:black;
+	 background-repeat:no-repeat;
+	 color:white;}
+input
+	{color:black;
+	 background-color:rgb(255,255,255);
+	 padding:10}
+h3	
+	{padding-left:100;}
+table	
+	{padding-left:95;}
+select
+	{padding:5}
+	
+	
+-->
+</style>	 
+</head>
+<body>
+<h3>Hubungi Saya</h3>
+<hr size=1 color="white" width=11% align="left" style="position:relative;left:100">
+<form method="post" Action="form.html">
+	<table cellpadding=5>
+	<tr>
+		<td>
+			<img src="lokasi.png" width=35px height=33px> 
+			<span style="position:relative; left:10; top: -10">Bandung, ID</span>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="phone.png" width=35px height=35px> 
+			<span style="position:relative; left:10; top: -10">08112004240</span>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="form.png" width=35px height=35px> 
+			<span style="position:relative; left:10; top: -12">rafli_tzie@yahoo.com</span>
+		</td>
+	</tr>
+	<tr>
+		<td><br></td>
+	</tr>
+	<tr>
+		<td><input type="text" name="varNama" Size="100" placeholder="Nama"></td>
+	</tr>
+	<tr>
+		<td><input type="text" name="varNama" Size="100" placeholder="Email"></td>
+	</tr>
+	<tr>
+		<td><input type="password" name="varPassword" Size="100" placeholder="Subjek"></td>
+	</tr>
+	<tr>
+		<td><b>Agama :</b>
+		<select name="Agama" Size="1">
+			<option>Islam</option>
+			<option>Kristen</option>
+			<option>Budha</option>
+			<option>Hindu</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Jenis Kelamin :</b>
+			<input checked type="radio" Name="kelamin" Value="pria">Pria
+			<input type="radio" Name="kelamin" Value="Wanita">Wanita
+		</td>	
+	</tr>
+	<tr>
+		<td>
+			<b>Hobi:</b>
+			<input type="checkbox" Name="hobi" Value="soccer">Sepak Bola
+			<input type="checkbox" Name="hobi" Value="badminton">Bulu Tangkis
+			<input type="checkbox" Name="hobi" Value="Computer">Komputer
+			<input type="checkbox" Name="hobi" Value="game">Permainan Video
+			<br>
+			<div style="position:relative;left:53">
+			<input type="checkbox" Name="hobi" Value="internet">Internet
+			<input checked type="checkbox" Name="hobi" Value="other" >Lainnya
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Komentar/ Saran:</b>
+			<br>
+			<textarea cols="78" rows="10" Name="Komentar"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="submit" value="SEND MESSAGE">
+			<input type="reset" value="CLEAR FORM">
+		</td>	
+	</tr>
+	</table>
+</body>
+</html>
